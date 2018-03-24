@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<GROUP>
+   <REQUEST>
+      <PORTFOLIO>
+         <WEIGHT TYPE="INDEX1" VALUE="1.0"/>
+         <WEIGHT TYPE="INDEX2" VALUE="2.0"/>
+         <WEIGHT TYPE="INDEX22" VALUE="22.0"/>
+      </PORTFOLIO>
+      <WEIGHT TYPE="INDEX3" VALUE="3.0"/>
+   </REQUEST>
+   <WEIGHT TYPE="INDEX4" VALUE="4.0"/>
+</GROUP>
+

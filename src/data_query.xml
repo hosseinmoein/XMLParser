@@ -1,0 +1,37 @@
+<!-- Hossein Moein -->
+<!-- March 24 2018 -->
+
+<!--
+<?xml version="1.0"?>
+<!DOCTYPE HM_REQUEST_GROUP SYSTEM "file:/home/onetick/Hossein/XXXX/src/DMSxml/src/data_query.dtd">
+-->
+
+<HM_REQUEST_GROUP ID="r0001">
+   <HM_REQUEST ID="r0001" TARGET="DMS" TYPE="TICK_DATA"
+               REQUEST_PROTOCOL="XML-1.0" REPLY_PROTOCOL="XML-1.0"
+               CLIENT_MACHINE="&quot;&lt;tickdb1.axiomif.&#9;.com&gt;&quot;&apos;&#13;"
+               ESPECIAL_FIELD="_~^.%=@|-,:${[?*;\/()"
+               CLIENT_PROCESS_ID="23456" CLIENT_USER_NAME="hmoein">
+       <SYMBOL ID="IBM" START="20100716083000"
+               END="20100716093000"
+               REFERENCE="20100716"
+               RETURN_TYPE="ADJUSTED">
+          <FIELD TICK_TYPE="ASK"/>
+          <FIELD TICK_TYPE="BID"/>
+          <FIELD TICK_TYPE="TRADE"/>
+       </SYMBOL>
+       <SYMBOL ID="AOL" START="20010116083000"
+               END="20010116093000"
+               REFERENCE="20010116"
+               RETURN_TYPE="ADJUSTED">
+          <FIELD TICK_TYPE="ASK"/>
+       </SYMBOL>
+   </HM_REQUEST>
+</HM_REQUEST_GROUP>
+     
+
+<!-- Local Variables: -->
+<!-- mode:sgml -->
+<!-- tab-width:4 -->
+<!-- c-basic-offset:4 -->
+<!-- End: -->

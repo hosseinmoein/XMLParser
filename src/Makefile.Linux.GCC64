@@ -1,0 +1,29 @@
+## Hossein Moein
+## March 24 2018
+
+BUILD_PLATFORM = Linux.GCC64
+BUILD_DEFINE = Linux_GCC64
+
+# -----------------------------------------------------------------------------
+
+CXX = /usr/bin/g++
+
+XERCES_DIR = /home/hossein/tools/Xerces
+
+INCLUDES = -I/usr/include/c++/7 -I/usr/include -I$(XERCES_DIR)/include
+
+LFLAGS = -L/usr/lib/gcc/x86_64-linux-gnu/7
+CXXFLAGS = -O3  -std=c++11 $(INCLUDES) $(DEFINES) -std=c++17
+
+PLATFORM_LIBS = -lxerces-c -lpthread -lrt -ldl -lm -lnsl -lstdc++
+
+# -----------------------------------------------------------------------------
+
+include CommonMakefile.mk
+
+# -----------------------------------------------------------------------------
+
+## Local Variables:
+## mode:Makefile
+## tab-width:4
+## End:
