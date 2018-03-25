@@ -13,7 +13,7 @@ XERCES_DIR = /home/hossein/tools/Xerces
 INCLUDES = -I/usr/include/c++/7 -I/usr/include -I$(XERCES_DIR)/include
 
 LFLAGS = -L/usr/lib/gcc/x86_64-linux-gnu/7
-CXXFLAGS = -O3  -std=c++11 $(INCLUDES) $(DEFINES) -std=c++17
+CXXFLAGS = -O3 $(INCLUDES) $(DEFINES) -std=c++17
 
 PLATFORM_LIBS = -lxerces-c -lpthread -lrt -ldl -lm -lnsl -lstdc++
 
